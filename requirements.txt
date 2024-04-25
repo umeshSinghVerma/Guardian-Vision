@@ -1,8 +1,6 @@
 ultralytics
 opencv-python
-math
-email_alert_function
-smtplib
+secure-smtplib
 Flask
 Flask-WTF
 WTForms
