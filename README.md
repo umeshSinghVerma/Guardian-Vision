@@ -83,12 +83,12 @@ Install the Basic libaray in a new terminal
 
 ## Advantage of Guardian Vision
 
-#Challenges in Real-world
+# Challenges in Real-world
 1.Finding Database for ML model
 2.Deployment of ML model on website.
 3.Sending alert by sms and Emails.
 
-#Solution
+# Solution
 1.Creating/Finding and framming of database.
 2.Deployment of ML model using Flask libaray.
 3.Sending alert through Python libaray .
