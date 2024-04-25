@@ -1,21 +1,25 @@
 # Guardian Vision
 
-<p> <img src="https://user-images.githubusercontent.com/124444723/233845771-bd346166-71c1-4213-a015-9ce94515c755.jpg" alt="Guardian Vision Logo" width="100px" height="100px" style="background: #fff;"> </p>
-
 <p> Violence detection ML model to detect suspicious activities in real-time through CCTV or any camera, and send immediate alert to the respective authorities. </p>
 
 <p align='center'><img src="static\images\WhatsApp Image 2023-04-24 at 01.06.23.jpg" alt="Weapon Detection" width="800"></p>
+
 ## Overview 🤖
 
 The project aims to develop a system for violence detection using CCTV footage and providing an immediate alert to the police. The system will use advanced image processing and machine learning techniques to analyze the CCTV footage in real-time and detect any violent behavior or actions. Once detected, an automatic alert will be sent to the police, enabling them to respond quickly and take appropriate action. The system has the potential to enhance public safety and reduce crime rates in public areas.
 
-## Usage
+## Inspiration 💡
+The inspiration behind Guardian-Vision stemmed from the pressing need to enhance public safety and security in an increasingly complex world. With the rise in incidents involving concealed weapons and knives, we recognized the importance of developing a proactive solution to detect and mitigate such threats before they escalate.
+
+## Usage 🛠️
 
 To use this project, you need to have a webcam connected to your computer. The project will capture the video stream from the webcam and analyze it for any violent activities. If any violence is detected, the project will send an alert to the respective authorities with the location and timestamp of the incident.
 
-## Features 🦾
+## Features 
 
-- Weapon Detection
+- Gun Detection on webcam/video
+- Knife Detection on webcam/video
+- AI Chatbot
 - Light/dark mode toggle
 - Enhance the user experience creating highly reactive website.
 
@@ -58,6 +62,8 @@ To use this project, you need to have a webcam connected to your computer. The p
 - Python
 - Flask
 - Yolo Models
+- Elephant AI
+- AI Chatbot
 
 
 ## Installation
@@ -80,7 +86,7 @@ Or
   json-server --watch ./database/db.json --port 8000
 ```
 
-3. Install the Basic libaray in a **new terminal**
+3. Install the pythob libraries in a <ins>**new terminal**</ins>
 
 ```bash
    pip install -r ./requirements.txt
@@ -91,16 +97,14 @@ Or
 ```bash
    python app.py
 ```
-## Inspiration
-The inspiration behind Guardian-Vision stemmed from the pressing need to enhance public safety and security in an increasingly complex world. With the rise in incidents involving concealed weapons and knives, we recognized the importance of developing a proactive solution to detect and mitigate such threats before they escalate.
 
 ## What it does
 
 Guardian-Vision operates by analyzing video streams from surveillance cameras in real-time. The system employs state-of-the-art object detection algorithms to identify and flag potential threats, such as guns or knives, in the camera's field of view.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20204949.png" alt="Weapon Detection" width="400">
-  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20205059.png" alt="Knife Detection" width="400">
+  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20204949.png" alt="Weapon Detection" width="450">
+  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20205059.png" alt="Knife Detection" width="450">
 </p>
 
 
@@ -108,8 +112,8 @@ Guardian-Vision operates by analyzing video streams from surveillance cameras in
 When a weapon or knife is detected, Guardian-Vision triggers immediate alerts, notifying designated authorities via email and WhatsApp. These alerts include a snapshot of the suspicious individual carrying the weapon, along with the system's confidence level in the detection accuracy.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20205014.png" alt="Weapon Detection" width="400">
-  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20205123.png" alt="Knife Detection" width="400">
+  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20205014.png" alt="Weapon Detection" width="450">
+  <img src="https://raw.githubusercontent.com/umeshSinghVerma/Guardian-Vision/main/Screenshot%202024-04-25%20205123.png" alt="Knife Detection" width="450">
 </p>
 
 
@@ -132,19 +136,18 @@ Throughout the development process, we gained invaluable insights into the capab
 
 ## What's next for Guardian-Vision
 Looking ahead, we plan to further refine and optimize Guardian-Vision to improve its detection accuracy and real-time performance. Additionally, we aim to explore opportunities for expanding its capabilities, such as integrating with existing surveillance systems and enhancing its scalability for deployment in various environments.
-## Advantage of Guardian Vision
 
 ## Challenges in Real-world
 
-1.Finding Database for ML model
-2.Deployment of ML model on website.
-3.Sending alert by sms and Emails.
+1. Finding Database for ML model
+2. Deployment of ML model on website.
+3. Sending alert by sms and Emails.
 
 ## Solution
 
-1.Creating/Finding and framming of database.
-2.Deployment of ML model using Flask libaray.
-3.Sending alert through Python libaray .
+1. Creating/Finding and framing of database.
+2. Deployment of ML model using Flask libaray.
+3. Sending alert through Python libaray .
 
 ## Support
 
@@ -157,8 +160,7 @@ For support, email aviralofficial1729@gmail.com
 - [@ayush_lion](https://github.com/Ayushlion8)
 - [@umeshSinghVerma](https://github.com/umeshSinghVerma)
 
-<p align='center'><img src="static\images\WhatsApp Image 2023-04-24 at 01.07.02.jpg" alt="Weapon Detection" width="800"></p>
+<p align='center'><img src="static\images\WhatsApp Image 2023-04-24 at 01.07.02.jpg" alt="Weapon Detection" width="700"></p>
 
-## Team Members
 
 You can reach out to us at aviralofficial1729@gmail.com where you can give feedbacks or report bugs.
