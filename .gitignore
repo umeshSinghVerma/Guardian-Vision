@@ -1,3 +1,5 @@
 node_modules
 .env
 __pycache__
+# Ignore all files ending with .Identifier inside all folders
+**/*.Identifier
