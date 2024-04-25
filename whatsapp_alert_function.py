@@ -1,14 +1,19 @@
+import os
+from dotenv import load_dotenv
 from twilio.rest import Client
 
+# Load environment variables from .env file
+load_dotenv()
+
 def whatsapp():
-    account_sid = 'ACef81c59d5968db38890a98f8855825a2'
-    auth_token = 'eba6c5095c04c1e3e2e410c8a118c849'
+    account_sid = os.getenv('TWILIO_ACCOUNT_SID')
+    auth_token = os.getenv('TWILIO_AUTH_TOKEN')
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
-    body='This is a message from vigilence squad, Something mischievous is happening🤔 at the location you specified to us.',
-    from_='whatsapp:+14155238886',
-    to='whatsapp:+918923194616'
+        body='This is a message from vigilance squad, Something mischievous is happening🤔 at the location you specified to us.',
+        from_='whatsapp:' + os.getenv('TWILIO_NUMBER'),
+        to='whatsapp:' + os.getenv('TARGET_NUMBER')
     )
 
     print(message.sid)
